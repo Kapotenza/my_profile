@@ -1,0 +1,151 @@
+/* ========================================
+   CORREÇÕES DE RESPONSIVIDADE
+   ======================================== */
+
+/* Corrige o Hero para mobile */
+.hero {
+  min-height: 100vh;
+  height: auto;
+  padding: 80px 0 40px 0;
+}
+
+.hero-title {
+  background: var(--blue-color);
+  border-radius: 40px;
+  color: var(--white-color);  
+  margin: 0 0 1rem 0 !important;
+  padding: 0.5rem 2rem 1.5rem 2rem;
+  font-size: 20px;
+  display: inline-block;
+  max-width: 100%;
+  text-align: center;
+}
+
+.email-link {
+  background: aqua;
+  border-radius: 40px;
+  color: #483D8B;
+  margin: 1rem 0 !important;
+  padding: 0.5rem 2rem 1rem 2rem;
+  font-size: 16px;
+  display: inline-block;
+  text-decoration: none;
+  max-width: 100%;
+  text-align: center;
+}
+
+.email-link:hover {
+  color: #483D8B;
+  text-decoration: none;
+}
+
+/* Ajustes para a imagem do logo no hero */
+.hero img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+/* Media Queries Adicionais */
+
+/* Tablets e menores */
+@media screen and (max-width: 991px) {
+  .hero {
+    padding: 100px 0 60px 0;
+  }
+  
+  .hero-title {
+    font-size: 18px;
+    padding: 0.5rem 1.5rem 1rem 1.5rem;
+  }
+  
+  .email-link {
+    font-size: 15px;
+    padding: 0.5rem 1.5rem 0.8rem 1.5rem;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 80px 0 40px 0;
+  }
+  
+  .hero-title {
+    font-size: 16px;
+    padding: 0.5rem 1.5rem 1rem 1.5rem;
+    margin: 0 0 0.5rem 0 !important;
+  }
+  
+  .email-link {
+    font-size: 14px;
+    padding: 0.5rem 1.5rem 0.7rem 1.5rem;
+  }
+  
+  /* Garante que textos não quebrem em mobile */
+  .hero .col-lg-6,
+  .hero .col-md-6 {
+    text-align: center;
+  }
+}
+
+/* Mobile pequeno */
+@media screen and (max-width: 576px) {
+  .hero {
+    padding: 70px 0 30px 0;
+  }
+  
+  .hero-title {
+    font-size: 14px;
+    padding: 0.4rem 1rem 0.8rem 1rem;
+    margin: 0 0 0.5rem 0 !important;
+    border-radius: 30px;
+  }
+  
+  .email-link {
+    font-size: 13px;
+    padding: 0.4rem 1rem 0.6rem 1rem;
+    border-radius: 30px;
+  }
+}
+
+/* Corrige o problema da logo muito grande */
+@media screen and (max-width: 768px) {
+  .hero img {
+    max-width: 80%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Garante que todas as seções fiquem bem espaçadas */
+.section-padding {
+  padding: 4rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .section-padding {
+    padding: 3rem 0;
+  }
+}
+
+/* Ajusta espaçamento do navbar em mobile */
+@media screen and (max-width: 991px) {
+  .navbar {
+    padding: 1rem;
+  }
+}
+
+/* Corrige container em telas muito pequenas */
+@media screen and (max-width: 576px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
