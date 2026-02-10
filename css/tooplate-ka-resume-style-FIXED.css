@@ -170,7 +170,7 @@ a:hover {
   top: 0;
   right: 0;
   left: 0;
-  opacity: 1; /* << Invisível inicialmente */
+  opacity: 0; /* << Invisível inicialmente */
 }
 
 .navbar.scroll {
