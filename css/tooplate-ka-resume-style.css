@@ -685,8 +685,12 @@ figure.snip1157 .author h5 span {
   max-width: 190px;
 }
 
+/* CORREÇÃO DO RODAPÉ */
 .copyright-text {
   font-size: var(--base-font-size);
+  margin-top: 80px !important; /* << Desce o rodapé */
+  margin-left: 40px !important; /* << Move para a direita */
+  text-align: left !important;
 }
 
 /*---------------------------------------
