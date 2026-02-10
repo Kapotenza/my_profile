@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
   $(function () {
     'use strict'
 
