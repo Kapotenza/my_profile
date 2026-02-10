@@ -81,4 +81,3 @@ $(function () {
     event.preventDefault();
   });
 });
->>>>>>> 15e3d965366a211b6e42748eb8cff88a4518f7ac
