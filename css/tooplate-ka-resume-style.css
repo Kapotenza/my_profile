@@ -697,7 +697,7 @@ figure.snip1157 .author h5 span {
   margin: 25px 0 10px 0;
   padding: 0;
   display: flex;
-  gap: 18px;              /* controla o espaçamento REAL */
+  gap: 10px;              /* controla o espaçamento REAL */
 }
 
 .social-links li {
