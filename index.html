@@ -405,6 +405,16 @@ https://www.tooplate.com/view/2120-ben-resume
   <script src="js/smoothscroll.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/custom.js"></script>
+  <script>
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 100) {  // Ajuste '100' para pixels de scroll desejados
+    $('.navbar').addClass('scroll');
+  } else {
+    $('.navbar').removeClass('scroll');
+  }
+});
+</script>
+
 </body>
 
 </html>
