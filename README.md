@@ -1,45 +1,33 @@
 # ✅ SITE APRESENTAÇÃO PESSOAL - VERSÃO SIMPLES
 
-## O QUE FOI FEITO
+# 👩‍💻 Meu Perfil Profissional
 
-Adicionei apenas **1 arquivo CSS** pequeno que corrigiu alguns problemas SEM mexer no código original.
+Este repositório contém informações sobre minha trajetória profissional, habilidades e projetos.  
+O objetivo é servir como um portfólio digital, centralizando minhas experiências e conquistas.
 
-### Arquivo adicionado:
-- `css/fix-responsive.css` (pequeno, apenas correções essenciais)
+---
 
-### O que corrige:
-- ✅ Removeu margens fixas do hero-title e email-link
-- ✅ Ajustou tamanhos para mobile
-- ✅ **CORRIGIU ícones das redes sociais** (estavam sem aparecer)
-- ✅ **CORRIGIU menu ativo** (agora sublinha na página Contato)
+## 📂 Conteúdo
+- **Sobre mim**: resumo da minha formação e interesses.
+- **Habilidades**: principais competências técnicas e interpessoais.
+- **Projetos**: destaques de trabalhos realizados.
+- **Contato**: formas de entrar em contato comigo.
 
-## CORREÇÕES ESPECÍFICAS
+---
 
-### Problema 1: Ícones das redes sociais sumiram ✅ CORRIGIDO
-**Causa:** Faltavam os arquivos CSS do Font Awesome carregarem corretamente
-**Solução:** Adicionado CSS específico para garantir que os ícones apareçam
+## 🚀 Como visualizar
+1. Acesse o repositório diretamente no GitHub:  
+   [Perfil de Karina Potenza](https://github.com/Kapotenza/my_profile)
+2. Explore os arquivos e pastas para conhecer mais sobre minha carreira.
 
-### Problema 2: Menu não sublinha na página Contato ✅ CORRIGIDO  
-**Causa:** O Bootstrap scrollspy precisa de um ajuste no CSS
-**Solução:** Adicionado CSS com `!important` para forçar o sublinhado quando ativo
+---
 
-## TESTE DE RESPONSIVIDADE
+## 🤝 Contribuições
+Este repositório é de caráter pessoal, mas sugestões de melhoria na organização ou apresentação são bem-vindas.  
+Abra uma *issue* ou envie um *pull request*.
 
-Abri no Chrome e pressionei **F12**, depois cliquei no ícone de celular para testar em diferentes tamanhos.
+---
 
-## TESTE DOS ÍCONES
-
-Rolei até a seção "Contato" e verifiquei se os 4 ícones estão aparecendo:
-- 📘 Facebook
-- 📷 Instagram  
-- 💼 LinkedIn
-- 🐙 GitHub
-
-## TESTE DO MENU
-
-Rolei a página e o item do menu fica sublinhado quando você está na seção correspondente.
-
-Se algo não funcionar, basta **remover** a linha 21 do index.html:
-```html
-<link rel="stylesheet" href="css/fix-responsive.css" />
-```
+## 📜 Licença
+Este projeto está sob a licença MIT.  
+Você pode reutilizar o conteúdo, desde que mantenha os devidos créditos.
